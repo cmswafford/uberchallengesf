@@ -1,0 +1,18 @@
+Link to hosted application: http://uberchallengesf.appspot.com/
+Link to personal side project: https://github.com/cmswafford/krypto
+Link to my resume: https://dl.dropboxusercontent.com/u/124437/Clifton%20Swafford%20Resume.pdf
+
+I chose to implement the SF Movies app.
+
+I used Google App Engine to host the code because of its ease and availability. There isn't any
+backend processing in main.py except setting up the routing.
+
+I used Google Maps and their geocoding API for the first time.
+
+Clicking a movie from the Movies list automatically fills the search input and executes the search.
+Alternatively, the user can start typing a movie title and jQuery UI autocomplete will suggest movies.
+
+Once a movie is chosen, I put pins on the map at each of the film locations for that movie. These locations
+are listed below the movie title (which links to IMDB). Hovering over each location in this list shows 
+only that pin on the map so that the user can highlight individual locations. Each pin also has a title
+attribute of the address name that shows if you hover on the pin.

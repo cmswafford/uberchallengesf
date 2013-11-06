@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Clifton Swafford - Uber Coding Challenge</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="main.js"></script>
+	<script>
+	</script>
+</head> 
+<body>
+	<div id="container">
+		<header>
+			<h1>Clifton Swafford - Uber Coding Challenge</h1>
+		</header>
+		<div id="sidebar">
+			<input id="search" type="text" placeholder="Search movie titles..." onkeyup="display_selected_movie(this.value);">
+
+			<div id="selected-movie">
+				<h3></h3>
+				<p>No film locations for current search term</p>
+			</div>
+
+			<h4>Movies</h4>
+			<ul id="movie-list">
+			</ul>
+		</div>
+		<div id="map-canvas">
+		</div>
+	</div>
+</body>
+</html>
